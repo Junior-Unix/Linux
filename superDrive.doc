@@ -1,0 +1,11 @@
+Para instalar o super drive da apple no Linux:
+
+
+#Install;
+sudo apt-get install sg3-utils
+
+#Magic command;
+sg_raw /dev/sr0 EA 00 00 00 00 00 01
+
+
+//Und alles ward gut. :)
