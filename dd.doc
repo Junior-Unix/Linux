@@ -1,0 +1,4 @@
+//Comando DD
+
+
+sudo dd if= of= status=progress bs=4M;sync
